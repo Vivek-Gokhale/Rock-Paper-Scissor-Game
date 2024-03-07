@@ -1,0 +1,39 @@
+.images {
+   
+    border: 3px solid black;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+    
+  }
+  button{
+    background-color: white;
+    border: none;
+  }
+ 
+  .images:active {
+    
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+  }
+.button5 {border-radius: 50%;}
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+  #user{
+    font-weight: bold;
+  }
+  #computer{
+    font-weight: bold;
+  }
+  #matchResult{
+    font-weight: bold;
+    background-color: black;
+    width: fit-content;
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+  }

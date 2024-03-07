@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="gameStyle.css">
+</head>
+<body>
+    <center>
+    <div id="header">
+        <h2 style="color: white; background-color: black; padding: 15px;">Rock Paper Scissor Game</h2>
+    </div>
+    <div id="controls">
+        <table cellspacing = "30px">
+            <tr>
+                <td><button><img src="rock.png" alt="Rock" class="images button5" width="220px" height="150px" id="rock"></button></td>
+                <td><button><img src="paper.png" alt="Paper" class="images button5" width="220px" height="150px" id="paper"></button></td>
+                <td><button><img src="scissor.png" alt="Scissor" class="images button5" width="220px" height="150px" id="scissor"></button></td>
+            </tr>
+        </table>
+    </div>
+    <div id="scoreBoard">
+        <p id="user">Your's Score : 0</p>
+        <p id="computer">Computer's Score : 0</p>
+    </div>
+    <br>
+    <div id="matchResult">Match Result</div>
+</center>
+    <script src="gameScript.js"></script>
+</body>
+</html>
